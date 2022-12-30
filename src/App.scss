@@ -1,0 +1,93 @@
+
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url(./image/studiobg.png);
+  background-size: contain;
+  .footer{
+    background-color: rgba(56, 56, 56,.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: fixed bottom;
+      h2{
+        color: white
+      }
+  }
+
+}
+  main{
+    flex-grow: 1;
+  } 
+  img{
+      width: 30vh;
+  }
+ .icon{
+        display: flex;
+        justify-content: space-between;
+  }
+
+.App-header {
+  display: flex;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+    h1{
+      margin: 0;
+    }
+}
+
+.aPropos{
+  .image{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+
+    p{
+      margin-left: 2vw;
+    }
+  }
+}
+p{
+  text-align: center;
+  color: white;
+}
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 15px;
+}
+nav{
+  background-color: #EDEDED;
+}
+.logo{
+  margin-right: 50px;
+}
+
+.contain{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(56, 56, 56) ;
+}
+
+.imageloupe{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.projet{
+  main{
+    h2{
+      text-align: center;
+      color: #EDEDED;
+    }
+  }
+ 
+}
