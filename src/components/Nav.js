@@ -19,17 +19,14 @@ const Navbar = () => {
                 <FaBars id="menu-button" onClick={toggleMenu} size={35} />
             </div>
             <ul id="menu" style={{ display: menuOpen ? 'block' : 'none' }}>
-                <li>
+                <li onClick={() => navigate('/about')}>
                     À propos
                 </li>
-                <li>
+                <li onClick={() => navigate('/project')}>
                     Mes projets
                 </li>
-                <li>
+                <li onClick={() => navigate('/maitrises')}>
                     Mes maitrises
-                </li>
-                <li>
-                    Mes formations
                 </li>
             </ul>
         </nav>

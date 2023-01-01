@@ -1,18 +1,23 @@
 import React from 'react'
 import Navbar from './Nav'
 import presentation from "../image/presentation.png"
+import Footer from './Footer'
 
 const Apropos = () => {
   return (
     <div className='aPropos'>
-        <header><Navbar/></header>
+      <header><Navbar /></header>
+      <main>
         <div className="image">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat suscipit vero sapiente accusantium quia. Sapiente, inventore ex corporis optio repellendus, accusamus perferendis ab voluptates debitis eveniet atque voluptate dolores ratione.</p>
+          <p>Je suis un jeune développeur diplômé d'un Bac STMG aujourd'hui en formation au sein du centre M2I Formation pour devenir Front-End, passionné du monde numérique depuis toujours, je souhaite m'épanouir dans ce domaine durant toute ma vie professionnelle.</p>
           <img src={presentation} alt="" />
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit fugiat officiis magni odit! Non consectetur saepe esse, odio delectus maiores voluptatum commodi iste libero reiciendis beatae sequi quia ullam eligendi?</p>
+          <p>Malgrés mon grand interet pour l'informatique, j'ai aussi d'autres passions et principalement le sport. Je pratique du foot en club depuis une dizaine d'années. Si tu es plus curieux tu peux en apprendre d'avantage via mes réseaux sociaux, juste en bas !</p>
         </div>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at, debitis, facilis iure sit inventore illo exercitationem facere labore voluptate aut sint dignissimos. Ut impedit ipsum velit odio quia necessitatibus.</p>
+      </main>
+
+      <Footer />
     </div>
   )
 }
