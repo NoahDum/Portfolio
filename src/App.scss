@@ -88,9 +88,11 @@ li{
 
 .projet{
   main{
-    h2{
-      text-align: center;
+    display: flex;
+    justify-content: center;
+    h1{
       color: #EDEDED;
+      padding: 30vh;
     }
   }
 }
@@ -101,10 +103,14 @@ li{
   align-items: center;
   margin-top: 50px;
   background-color: #EDEDED;
-  width: 25vw;
+  width: 35vw;
   height: 20vh;
+  @media screen and (max-width: 763px) {
+    width: max-content;
+  }
   p{
     color: rgb(56, 56, 56);
+    width: 50vw;
   }
 }
 

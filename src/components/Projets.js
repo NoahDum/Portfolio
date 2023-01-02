@@ -1,16 +1,13 @@
 import React from 'react'
 import Navbar from './Nav'
-import Loupe from "../image/loupe.png"
+import TypingAnimation from './typingAnim'
 
 const Projets = () => {
     return (
         <div className='projet'>
             <header><Navbar /></header>
             <main>
-                <h2>Tu vois mal ? Scroll pour jetter un oeil à la loupe ! </h2>
-                <div className="imageloupe">
-                    <img src={Loupe} alt="" />
-                </div>
+                <h1><TypingAnimation className="text anim" text="Il n'y a rien ici pour l'instant, repasse plus tard ! " /></h1>
             </main>
 
         </div>

@@ -14,7 +14,7 @@ const Apropos = () => {
           <p>Malgrés mon grand interet pour l'informatique, j'ai aussi d'autres passions et principalement le sport. Je pratique du foot en club depuis une dizaine d'années. Si tu es plus curieux tu peux en apprendre d'avantage via mes réseaux sociaux, juste en bas !</p>
         </div>
 
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis at, debitis, facilis iure sit inventore illo exercitationem facere labore voluptate aut sint dignissimos. Ut impedit ipsum velit odio quia necessitatibus.</p>
+        <p>Je suis actuellement à la recherche d'un stage dans le développement web pour la durée d'un mois minimum du 27 mars 2023 au 21 avril 2023.<br/> Peut importe le language utilisé pour ce stage, mon envie de découverte m'y fera prendre goût ! </p>
       </main>
 
       <Footer />
